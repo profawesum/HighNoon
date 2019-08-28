@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 5978561145953487619}
   - component: {fileID: 6375344672474583092}
   - component: {fileID: -6182104746081218695}
+  - component: {fileID: -4027097563754707664}
+  - component: {fileID: 6860466465175012597}
+  - component: {fileID: 2185047623845335415}
   m_Layer: 0
   m_Name: TempHat
   m_TagString: Untagged
@@ -96,6 +99,8 @@ MonoBehaviour:
   rb: {fileID: -6182104746081218695}
   speed: 20
   timer: 0
+  pickup: 0
+  start: 0
 --- !u!50 &-6182104746081218695
 Rigidbody2D:
   serializedVersion: 4
@@ -117,3 +122,69 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &-4027097563754707664
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207974537823764587}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.155, y: 0.78}
+    newSize: {x: 1.25, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.155, y: 0.78}
+  m_EdgeRadius: 0
+--- !u!61 &6860466465175012597
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207974537823764587}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.155, y: 0.78}
+    newSize: {x: 1.25, y: 1.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &2185047623845335415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2207974537823764587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78cd7566566862e4da08c3ccf858b26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwHat: {fileID: 449341255377706780, guid: 4205341f3d028f944aef86a684a79c40, type: 3}
+  velo: {fileID: 6375344672474583092}

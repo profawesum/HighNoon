@@ -7,9 +7,6 @@ namespace UnityStandardAssets._2D
     [RequireComponent(typeof(PlatformerCharacter2D))]
     public class Player2UserControls : MonoBehaviour
     {
-
-        [SerializeField] hatThrow throwHat;
-
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
 

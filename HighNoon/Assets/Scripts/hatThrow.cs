@@ -5,6 +5,7 @@ using UnityEngine;
 public class hatThrow : MonoBehaviour
 {
     public GameObject hatToThrow;
+
     public Transform firePointP1;
     public Transform firePointP2;
     public Transform firePointP3;
@@ -39,7 +40,6 @@ public class hatThrow : MonoBehaviour
 
     //fires a hat
     public void throwHat(Transform firePoint) {
-        Debug.Log("Tried to throw a hat");
         Instantiate(hatToThrow, firePoint.position, firePoint.rotation);
     }
 
