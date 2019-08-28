@@ -10,15 +10,30 @@ public class hatThrow : MonoBehaviour
     public Transform firePointP3;
     public Transform firePointP4;
 
+    public int P1Hats;
+    public int P2Hats;
+    public int P3Hats;
+    public int P4Hats;
+
     private void Update()
     {
         //checks to see which player has fired
+        //p2
         if (Input.GetButtonDown("ArrowThrowHat")) {
-            throwHat(firePointP2);
+            if (P2Hats >= 1)
+            {
+                throwHat(firePointP2);
+                P2Hats -= 1;
+            }
         }
+        //p1
         if (Input.GetButtonDown("Fire1"))
         {
-            throwHat(firePointP1);
+            if (P1Hats >= 1)
+            {
+                throwHat(firePointP1);
+                P1Hats -= 1;
+            }
         }
     }
 
