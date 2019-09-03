@@ -400,7 +400,7 @@ PrefabInstance:
     - target: {fileID: 8763364857808601867, guid: 186fe6d9e88a8f7448e196e35ef9c592,
         type: 3}
       propertyPath: hatSpeed
-      value: 0.05
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7333551715408316563, guid: 186fe6d9e88a8f7448e196e35ef9c592, type: 3}
@@ -485,7 +485,7 @@ PrefabInstance:
     - target: {fileID: 8763364857808601867, guid: 186fe6d9e88a8f7448e196e35ef9c592,
         type: 3}
       propertyPath: hatSpeed
-      value: 0.05
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7333551715408316563, guid: 186fe6d9e88a8f7448e196e35ef9c592, type: 3}
@@ -689,7 +689,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.375, y: 1.375}
+    oldSize: {x: 1.1075, y: 1.4766667}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -775,6 +775,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
       propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 21200000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e74cd05cdbaa84b42858faf603b6214a,
+        type: 3}
+    - target: {fileID: 21200000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 519331611491874468, guid: 87a2357765801c34292d6718d8b4d770,
@@ -2499,8 +2512,16 @@ PrefabInstance:
     - target: {fileID: 21200000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8fb98a6035269e64a998f9b56828fc4f,
+      objectReference: {fileID: 21300000, guid: e74cd05cdbaa84b42858faf603b6214a,
         type: 3}
+    - target: {fileID: 21200000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 519331611491874468, guid: 87a2357765801c34292d6718d8b4d770,
         type: 3}
       propertyPath: anchorFirst.x
@@ -2584,7 +2605,7 @@ PrefabInstance:
     - target: {fileID: 8763364857808601867, guid: 186fe6d9e88a8f7448e196e35ef9c592,
         type: 3}
       propertyPath: hatSpeed
-      value: 0.05
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 186fe6d9e88a8f7448e196e35ef9c592, type: 3}
@@ -3070,7 +3091,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.375, y: 1.375}
+    oldSize: {x: 1.1075, y: 1.4766667}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3484,7 +3505,7 @@ PrefabInstance:
     - target: {fileID: 8763364857808601867, guid: 186fe6d9e88a8f7448e196e35ef9c592,
         type: 3}
       propertyPath: hatSpeed
-      value: 0.05
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7333551715408316563, guid: 186fe6d9e88a8f7448e196e35ef9c592, type: 3}
@@ -3914,7 +3935,7 @@ PrefabInstance:
     - target: {fileID: 8763364857808601867, guid: 186fe6d9e88a8f7448e196e35ef9c592,
         type: 3}
       propertyPath: hatSpeed
-      value: 0.05
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7333551715408316563, guid: 186fe6d9e88a8f7448e196e35ef9c592, type: 3}

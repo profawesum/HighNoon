@@ -68,7 +68,11 @@ public class HatHolder : MonoBehaviour
                 collision.GetComponent<Rigidbody2D>().angularDrag = angularDragFirst;
                 HatList.Add(collision.gameObject);
             }
-            if (collision.CompareTag("thrownHat"))
+            if (collision.CompareTag("Player1"))
+            {
+                HatList.Remove(HatList.Last());
+            }
+            if (collision.CompareTag("Player2"))
             {
                 HatList.Remove(HatList.Last());
             }

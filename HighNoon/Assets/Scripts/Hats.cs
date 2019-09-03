@@ -25,7 +25,7 @@ public class Hats : MonoBehaviour
             if (playerEquipped != true)
             {
                 timer += Time.deltaTime;
-                if (timer <= 0.75f)
+                if (timer <= 0.5f)
                 {
                     gameObject.tag = "thrownHat";
                     rb2D.AddForce(transform.right * hatSpeed);
@@ -34,7 +34,8 @@ public class Hats : MonoBehaviour
                 else
                 {
                     gameObject.tag = "Hats";
-                    rb2D.AddForce(transform.right * 0);
+                    rb2D.gravityScale = 9.8f;
+                    rb2D.AddForce(transform.right * -hatSpeed);
                     timer = 0;
                 }
             }
