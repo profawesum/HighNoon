@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8763364857808601867}
   - component: {fileID: 8763364857808601866}
   - component: {fileID: 8763364857808601879}
+  - component: {fileID: 8257619445008952310}
   m_Layer: 0
   m_Name: New Sprite (2)
   m_TagString: Hats
@@ -116,6 +117,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e29de2326b99e419108247637b2135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb2D: {fileID: 0}
+  sj2D: {fileID: 0}
+  hatSpeed: 0.0005
+  timer: 0
+  playerEquipped: 0
 --- !u!231 &8763364857808601866
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -131,7 +137,7 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -5.5285873, y: -0.1461302}
+  m_ConnectedAnchor: {x: -10.13, y: 2.17}
   m_AutoConfigureDistance: 0
   m_Distance: 1
   m_DampingRatio: 0
@@ -162,3 +168,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.25, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &8257619445008952310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8763364857808601869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78cd7566566862e4da08c3ccf858b26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwHat: {fileID: 449341255377706780, guid: 4205341f3d028f944aef86a684a79c40, type: 3}

@@ -9,9 +9,9 @@ TagManager:
   - Player2
   - Player3
   - Player4
-  tags:
-  - Fire
   - Hats
+  - floor
+  - thrownHat
   layers:
   - Default
   - TransparentFX

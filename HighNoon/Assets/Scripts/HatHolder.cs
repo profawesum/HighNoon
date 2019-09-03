@@ -20,6 +20,7 @@ public class HatHolder : MonoBehaviour
 
     [SerializeField]
     List<GameObject> HatList;
+
     // Start is called before the first frame update
     void Start() 
     {
@@ -50,6 +51,8 @@ public class HatHolder : MonoBehaviour
                 collision.GetComponent<Rigidbody2D>().drag = dragLinks;
                 collision.GetComponent<Rigidbody2D>().angularDrag = angularDragLinks;
                 HatList.Add(collision.gameObject);
+                
+                
             }
             else if (collision.CompareTag("Hats"))
             {
@@ -64,6 +67,10 @@ public class HatHolder : MonoBehaviour
                 collision.GetComponent<Rigidbody2D>().drag = dragFirst;
                 collision.GetComponent<Rigidbody2D>().angularDrag = angularDragFirst;
                 HatList.Add(collision.gameObject);
+            }
+            if (collision.CompareTag("thrownHat"))
+            {
+                HatList.Remove(HatList.Last());
             }
         }
     }

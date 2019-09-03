@@ -4,15 +4,49 @@ using UnityEngine;
 
 public class Hats : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public Rigidbody2D rb2D;
+    public SpringJoint2D sj2D;
+
+    public float hatSpeed;
+    public float timer;
+    public bool playerEquipped;
+
+    private void Start()
     {
+        rb2D = gameObject.GetComponent<Rigidbody2D>();
+        sj2D = gameObject.GetComponent<SpringJoint2D>();
+    }
+
+    private void Update()
+    {
+        if (rb2D.gravityScale != -20)
+        {
+            if (playerEquipped != true)
+            {
+                timer += Time.deltaTime;
+                if (timer <= 0.75f)
+                {
+                    gameObject.tag = "thrownHat";
+                    rb2D.AddForce(transform.right * hatSpeed);
+                    Debug.Log("Got to adding force");
+                }
+                else
+                {
+                    gameObject.tag = "Hats";
+                    rb2D.AddForce(transform.right * 0);
+                    timer = 0;
+                }
+            }
+        }
         
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+                playerEquipped = true;
+                gameObject.GetComponent<Rigidbody2D>().gravityScale = -20;
+                gameObject.GetComponent<SpringJoint2D>().enabled = true;
     }
 }
