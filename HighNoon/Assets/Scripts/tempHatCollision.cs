@@ -45,9 +45,6 @@ public class tempHatCollision : MonoBehaviour
             source.Play();
             m_SpriteRenderer.color = Color.green;
         }
-            if (collision.tag == "floor") {
-                Destroy(gameObject);
-            }
         if (collision.tag == "equippedHats" && this.tag == "p1Hat")
         {
             holder2.removeHatWhenHit();

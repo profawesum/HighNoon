@@ -46,7 +46,7 @@ public class Hats : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.tag == "Player1" || collision.tag == "Player2")
+        if (collision.tag == "Player1" && this.tag == "Hats" || collision.tag == "Player2" && this.tag == "Hats")
         {
             playerEquipped = true;
             gameObject.GetComponent<Rigidbody2D>().gravityScale = -20;
