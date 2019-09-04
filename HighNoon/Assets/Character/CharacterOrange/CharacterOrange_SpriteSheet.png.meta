@@ -1,0 +1,640 @@
+fileFormatVersion: 2
+guid: 28ad885113b07fc4893d561dbd8b5800
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3739202159164344575
+    second: CharacterOrange_SpriteSheet_0
+  - first:
+      213: -716133489118121063
+    second: CharacterOrange_SpriteSheet_1
+  - first:
+      213: 4391188947027109661
+    second: CharacterOrange_SpriteSheet_2
+  - first:
+      213: -2312652766743063775
+    second: CharacterOrange_SpriteSheet_3
+  - first:
+      213: 6712477124160130494
+    second: CharacterOrange_SpriteSheet_4
+  - first:
+      213: -997025429180252255
+    second: CharacterOrange_SpriteSheet_5
+  - first:
+      213: 1233442448515424272
+    second: CharacterOrange_SpriteSheet_6
+  - first:
+      213: -3884371892795952657
+    second: CharacterOrange_SpriteSheet_7
+  - first:
+      213: -2444049449633930158
+    second: CharacterOrange_SpriteSheet_8
+  - first:
+      213: -1702953087108246897
+    second: CharacterOrange_SpriteSheet_9
+  - first:
+      213: -3051795432717905817
+    second: CharacterOrange_SpriteSheet_10
+  - first:
+      213: -8584966636775684788
+    second: CharacterOrange_SpriteSheet_11
+  - first:
+      213: 887533422671106904
+    second: CharacterOrange_SpriteSheet_12
+  - first:
+      213: 466727670497586972
+    second: CharacterOrange_SpriteSheet_13
+  - first:
+      213: -2152749234442766427
+    second: CharacterOrange_SpriteSheet_14
+  - first:
+      213: -8075698440088083814
+    second: CharacterOrange_SpriteSheet_15
+  - first:
+      213: -3168566898961150519
+    second: CharacterOrange_SpriteSheet_16
+  - first:
+      213: -7574824904313748071
+    second: CharacterOrange_SpriteSheet_17
+  - first:
+      213: 97399432357923043
+    second: CharacterOrange_SpriteSheet_18
+  - first:
+      213: -5638837775521994282
+    second: CharacterOrange_SpriteSheet_19
+  - first:
+      213: 1842173566600633249
+    second: CharacterOrange_SpriteSheet_20
+  - first:
+      213: -6642413839118759489
+    second: CharacterOrange_SpriteSheet_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11810
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e4a2bb15d9622408d99906f8a03b30
+      internalID: -3739202159164344575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 11810
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c7210b668c09b49805c1f7e1b23314
+      internalID: -716133489118121063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 11810
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61802ffcac2b67b49bddbe84048fe545
+      internalID: 4391188947027109661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 11810
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b3b9ece8c8555469e2a014035e7c9d
+      internalID: -2312652766743063775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9448
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6466c2172049dcf44b64cf7517d88612
+      internalID: 6712477124160130494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 9448
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171ac53b480fdfd4191883b9a4864fe3
+      internalID: -997025429180252255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 9448
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ac861722e1b3e4c913ce1a3e9a3f98
+      internalID: 1233442448515424272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 9448
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb10491566587d419f124fcf3fe5f71
+      internalID: -3884371892795952657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7086
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61e765071b9937498936d451bbd9e40
+      internalID: -2444049449633930158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 7086
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686195ab658444a48af5e1bb30746d36
+      internalID: -1702953087108246897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 7086
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a904c91d3fbf44f98ee2c7ecb7ef68
+      internalID: -3051795432717905817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 7086
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef19b9009e2b40a47bad556ef010fdaf
+      internalID: -8584966636775684788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4724
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805dcebc2dfd2af4e8d823ca323cbdba
+      internalID: 887533422671106904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 4724
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eb9ac08529df64998b89472e52c84d
+      internalID: 466727670497586972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 4724
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769fd7a750c39ac43a372b3507430322
+      internalID: -2152749234442766427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 4724
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ba7d915cf1867448c7329300fada71
+      internalID: -8075698440088083814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2362
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14f1e5dddefdeb4e939fe6a3b778cf0
+      internalID: -3168566898961150519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 2362
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2413f94b928b594eb62bcc3de912e99
+      internalID: -7574824904313748071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 2362
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542d829f56df7ff4a8d3e86a39959565
+      internalID: 97399432357923043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 2362
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026004a126565c9409bc12e1840efabb
+      internalID: -5638837775521994282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599044321b25d2746982a3e2f2f1ef9f
+      internalID: 1842173566600633249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterOrange_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 0
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34e3f804f19e394182246b11a290bac
+      internalID: -6642413839118759489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 311ddc9839e00f845912e125398751fb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

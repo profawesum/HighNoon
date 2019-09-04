@@ -31,9 +31,11 @@ public class tempHatCollision : MonoBehaviour
         }
             if (collision.tag == "Player3"){
                 throwHat.addHats(3);
+            m_SpriteRenderer.color = Color.yellow;
         }
             if (collision.tag == "Player4"){
                 throwHat.addHats(4);
+            m_SpriteRenderer.color = Color.green;
         }
             if (collision.tag == "floor") {
                 Destroy(gameObject);
