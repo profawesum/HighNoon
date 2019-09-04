@@ -7,6 +7,7 @@ public class hatThrow : MonoBehaviour
 
 
     [SerializeField] Hats hat;
+    //[SerializeField] HatHolder holderOfTheHats;
 
     public GameObject hatToThrow;
 
@@ -21,24 +22,31 @@ public class hatThrow : MonoBehaviour
     public float P4Hats;
 
     public void addHats(int player) {
-
         switch (player){
             case 1:
-                Debug.Log("SwitchCase");
-                P1Hats++;
-                Debug.Log(P1Hats);
-                break;
+                {
+                    P1Hats += 1;
+                    break;
+                }
             case 2:
-                P2Hats++;
-                break;
+                {
+                    P2Hats += 1;
+                    break;
+                }
             case 3:
-                P3Hats++;
-                break;
+                {
+                    P3Hats += 1;
+                    break;
+                }
             case 4:
-                P4Hats++;
-                break;
+                {
+                    P4Hats += 1;
+                    break;
+                }
             default:
-                break;
+                {
+                    break;
+                }
         }
     }
 
@@ -49,6 +57,7 @@ public class hatThrow : MonoBehaviour
         if (Input.GetButtonDown("ArrowThrowHat")) {
             if (P2Hats >= 1)
             {
+                hat.timer = 0;
                 throwHat(firePointP2);
                 P2Hats -= 1;
             }
@@ -58,6 +67,7 @@ public class hatThrow : MonoBehaviour
         {
             if (P1Hats >= 1)
             {
+                hat.timer = 0;
                 throwHat(firePointP1);
                 P1Hats -= 1;
             }

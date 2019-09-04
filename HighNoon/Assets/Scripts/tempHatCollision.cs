@@ -12,17 +12,18 @@ public class tempHatCollision : MonoBehaviour
             if (collision.tag == "Player1"){
                 Debug.Log("Hats");
                 throwHat.addHats(1);
+
             }
             if (collision.tag == "Player2"){
                 Debug.Log("Hats P2");
                 throwHat.addHats(2);
-            }
+        }
             if (collision.tag == "Player3"){
                 throwHat.addHats(3);
-            }
+        }
             if (collision.tag == "Player4"){
                 throwHat.addHats(4);
-            }
+        }
             if (collision.tag == "floor") {
                 Destroy(gameObject);
             }

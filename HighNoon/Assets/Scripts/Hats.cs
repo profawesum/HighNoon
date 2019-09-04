@@ -11,11 +11,14 @@ public class Hats : MonoBehaviour
     public float hatSpeed;
     public float timer;
     public bool playerEquipped;
+    public bool timeReset;
+    public float maxTime;
 
     private void Start()
     {
         rb2D = gameObject.GetComponent<Rigidbody2D>();
         sj2D = gameObject.GetComponent<SpringJoint2D>();
+        timeReset = true;
     }
 
     private void Update()
@@ -25,18 +28,14 @@ public class Hats : MonoBehaviour
             if (playerEquipped != true)
             {
                 timer += Time.deltaTime;
-                if (timer <= 0.5f)
+                if (timer <= maxTime)
                 {
                     gameObject.tag = "thrownHat";
                     rb2D.AddForce(transform.right * hatSpeed);
-                    Debug.Log("Got to adding force");
                 }
-                else
-                {
+                else {
                     gameObject.tag = "Hats";
-                    rb2D.gravityScale = 9.8f;
-                    rb2D.AddForce(transform.right * -hatSpeed);
-                    timer = 0;
+                    rb2D.velocity = new Vector2(0,0);
                 }
             }
         }

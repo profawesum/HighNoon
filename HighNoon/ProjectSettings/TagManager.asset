@@ -12,6 +12,7 @@ TagManager:
   - Hats
   - floor
   - thrownHat
+  - equippedHats
   layers:
   - Default
   - TransparentFX
