@@ -1,0 +1,640 @@
+fileFormatVersion: 2
+guid: 965935e9d3c235d4998407e136909f9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -385795533596536332
+    second: CharacterBlue_SpriteSheet_0
+  - first:
+      213: 642160744168140292
+    second: CharacterBlue_SpriteSheet_1
+  - first:
+      213: 8359605148909761936
+    second: CharacterBlue_SpriteSheet_2
+  - first:
+      213: 8250138982881377869
+    second: CharacterBlue_SpriteSheet_3
+  - first:
+      213: 7952563898005794013
+    second: CharacterBlue_SpriteSheet_4
+  - first:
+      213: 6897666367774729618
+    second: CharacterBlue_SpriteSheet_5
+  - first:
+      213: -3191616771057399255
+    second: CharacterBlue_SpriteSheet_6
+  - first:
+      213: 6184199199493624972
+    second: CharacterBlue_SpriteSheet_7
+  - first:
+      213: 807046502666520650
+    second: CharacterBlue_SpriteSheet_8
+  - first:
+      213: 2177124989206839777
+    second: CharacterBlue_SpriteSheet_9
+  - first:
+      213: -9119753071820320080
+    second: CharacterBlue_SpriteSheet_10
+  - first:
+      213: 4208206697035419713
+    second: CharacterBlue_SpriteSheet_11
+  - first:
+      213: -4528404177322207985
+    second: CharacterBlue_SpriteSheet_12
+  - first:
+      213: -7397972940316523177
+    second: CharacterBlue_SpriteSheet_13
+  - first:
+      213: 8840611264446304448
+    second: CharacterBlue_SpriteSheet_14
+  - first:
+      213: 1908378039922587478
+    second: CharacterBlue_SpriteSheet_15
+  - first:
+      213: -5325036164568100100
+    second: CharacterBlue_SpriteSheet_16
+  - first:
+      213: -2246726613728100285
+    second: CharacterBlue_SpriteSheet_17
+  - first:
+      213: -1369994058053989383
+    second: CharacterBlue_SpriteSheet_18
+  - first:
+      213: -2971233748994570080
+    second: CharacterBlue_SpriteSheet_19
+  - first:
+      213: 3889572878371409593
+    second: CharacterBlue_SpriteSheet_20
+  - first:
+      213: -1759573004045817339
+    second: CharacterBlue_SpriteSheet_21
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11810
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2938847e74a72469eec18330fb51ff
+      internalID: -385795533596536332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 11810
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa76f38424527fa45b296618c73f8c64
+      internalID: 642160744168140292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 11810
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3d9b91dc3fcee4ea92c28a6cce88d2
+      internalID: 8359605148909761936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 11810
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480b05b564cab604e96b9399ab6b2a2a
+      internalID: 8250138982881377869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9448
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e548bae78acc0034eb589caa8c5afe58
+      internalID: 7952563898005794013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 9448
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0477f008e6c684792719d5d78d6bc7
+      internalID: 6897666367774729618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 9448
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b130a2153d475134ebea153dfae3c96f
+      internalID: -3191616771057399255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 9448
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2594c998ca2b99942a062b006b1f2aad
+      internalID: 6184199199493624972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7086
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55576ac4600c074ea1a730198f1992b
+      internalID: 807046502666520650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 7086
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fddb3d6ef0940b4f82b160e05ba4ff8
+      internalID: 2177124989206839777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 7086
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f393ea859623f42b5bf7a3e3dab93f
+      internalID: -9119753071820320080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 7086
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0cff9248e1bc3449f474cb447e1bad
+      internalID: 4208206697035419713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4724
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3d0dd87ead4a94c835ba1868494caa
+      internalID: -4528404177322207985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 4724
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ae8f6f315faea4cbd4a652c040a268
+      internalID: -7397972940316523177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 4724
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90347ed5d95ea8843afc13175192b905
+      internalID: 8840611264446304448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 4724
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04b951ebc69e3a47a757d95bfbaaf08
+      internalID: 1908378039922587478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2362
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eced5b2988a986449ad534e45d635885
+      internalID: -5325036164568100100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 2362
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6bd6e5125658c43bdb44da047908ba
+      internalID: -2246726613728100285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 2362
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de818bc25460bee48a46494865d074cf
+      internalID: -1369994058053989383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 5316
+        y: 2362
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e609de19f5dc294d8d89ccc95df7f78
+      internalID: -2971233748994570080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d35fdd801329c42b0803f601d704c7
+      internalID: 3889572878371409593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterBlue_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 0
+        width: 1772
+        height: 2362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9fac4898d519741bed4e3a3fa2e3c4
+      internalID: -1759573004045817339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3e8f6091d9d14c14b9645da2fbefa9ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
