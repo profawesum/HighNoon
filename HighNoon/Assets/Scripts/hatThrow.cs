@@ -9,7 +9,8 @@ public class hatThrow : MonoBehaviour
     [SerializeField] Hats hat;
     [SerializeField] HatHolder holderOfTheHats;
     [SerializeField] HatHolder holderOfTheHats2;
-    //[SerializeField] HatHolder holderOfTheHats;
+
+    public Animator animate;
 
     public GameObject hatToThrow;
 
@@ -22,6 +23,8 @@ public class hatThrow : MonoBehaviour
     public float P2Hats;
     public float P3Hats;
     public float P4Hats;
+
+    public float attackTimer;
 
     public void addHats(int player) {
         switch (player){
@@ -60,11 +63,27 @@ public class hatThrow : MonoBehaviour
             if (P2Hats >= 1)
             {
                 hat.timer = 0;
+                animate.SetBool("isAttacking", true);
                 holderOfTheHats2.removeHatWhenThrown();
                 throwHat(firePointP2);
                 P2Hats -= 1;
+                attackTimer = 0;
             }
         }
+        attackTimer+= Time.deltaTime;
+
+        if (attackTimer >= 0.5f) {
+            attackTimer = 0;
+            animate.SetBool("isAttacking", false);
+        }
+        if (Input.GetAxis("ArrowHorizontal") != 0)
+        {
+            animate.SetBool("run", true);
+        }
+        else {
+            animate.SetBool("run", false);
+        }
+
         //p1
         if (Input.GetButtonDown("Fire1"))
         {

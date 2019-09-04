@@ -1248,6 +1248,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 0.8662559}
   m_EdgeRadius: 0
+--- !u!95 &421399408 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 87a2357765801c34292d6718d8b4d770,
+    type: 3}
+  m_PrefabInstance: {fileID: 1563309549}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &438641444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6002,7 +6008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 519331611491874468, guid: 87a2357765801c34292d6718d8b4d770,
         type: 3}
@@ -7996,6 +8002,11 @@ PrefabInstance:
       propertyPath: holderOfTheHats2
       value: 
       objectReference: {fileID: 421399400}
+    - target: {fileID: 449341255377706780, guid: 4205341f3d028f944aef86a684a79c40,
+        type: 3}
+      propertyPath: animate
+      value: 
+      objectReference: {fileID: 421399408}
     - target: {fileID: 449341255377706779, guid: 4205341f3d028f944aef86a684a79c40,
         type: 3}
       propertyPath: m_LocalPosition.x
