@@ -11,6 +11,8 @@ namespace UnityStandardAssets._2D
         [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
         [SerializeField] private LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
 
+
+        public Transform m_FirePoint;
         private Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
         const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
         private bool m_Grounded;            // Whether or not the player is grounded.
@@ -25,6 +27,7 @@ namespace UnityStandardAssets._2D
             // Setting up references.
             m_GroundCheck = transform.Find("GroundCheck");
             m_CeilingCheck = transform.Find("CeilingCheck");
+            m_FirePoint = transform.Find("FirePoint");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
         }
@@ -56,7 +59,7 @@ namespace UnityStandardAssets._2D
             if (m_Grounded || m_AirControl)
             {
                 // The Speed animator parameter is set to the absolute value of the horizontal input.
-                m_Anim.SetFloat("Speed", Mathf.Abs(move));
+               // m_Anim.SetFloat("Speed", Mathf.Abs(move));
 
                 // Move the character
                 m_Rigidbody2D.velocity = new Vector2(move*m_MaxSpeed, m_Rigidbody2D.velocity.y);
