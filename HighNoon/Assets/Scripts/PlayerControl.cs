@@ -24,7 +24,9 @@ public class PlayerControl : MonoBehaviour
     public void GameStart()
     {
         PlayerCharacter = Instantiate(PlayerPrefab, StartPosition);
+        PlayerCharacter.tag = "Player" + PlayerNumber;
         PlayerCharacter.GetComponent<UnityStandardAssets._2D.Player2UserControls>().SetPlayer(this);
+        FindObjectOfType<hatThrow>().SetPlayer(PlayerCharacter, PlayerNumber);
         //PlayerCharacter.GetComponent<hatThrow>().SetPlayer(this);
     }
 

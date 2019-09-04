@@ -64,6 +64,10 @@ public class PlayerToControllerAssigner : MonoBehaviour
                 {
                     playerPanel.GameStart();
                 }
+                else if (playerPanel.HasControllerAssigned == false)
+                {
+                    playerPanel.
+                }
             }
             isCount = false;
             isStart = true;

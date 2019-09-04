@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class hatThrow : MonoBehaviour
 {
-
-
     [SerializeField] Hats hat;
     [SerializeField] HatHolder holderOfTheHats;
     [SerializeField] HatHolder holderOfTheHats2;
@@ -14,7 +12,7 @@ public class hatThrow : MonoBehaviour
     public Animator animateP1;
 
     public GameObject hatToThrow;
-    private PlayerControl player;
+    private List<PlayerControl> Player;
     //private PlayerInput Input;
     private int PlayerNumber;
 
@@ -125,8 +123,30 @@ public class hatThrow : MonoBehaviour
         Instantiate(hatToThrow, firePoint.position, firePoint.rotation);
     }
 
-    public void SetPlayer(PlayerControl player)
+    public void SetPlayer(GameObject player, int PlayerController)
     {
+        switch (PlayerController)
+        {
+            case 1:
+            {
+                player.GetComponent<player>
+                break;
+            }
+            case 2:
+            {
+                
+                break;
+            }
+            case 3:
+            {
+                break;
+            }
+            case 4:
+            {
+                break;
+            }
+        
+        }
         this.player = player;
         PlayerNumber = player.PlayerNumber;
         //Input = player.GetComponent<PlayerInput>();

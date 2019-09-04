@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerPanel : MonoBehaviour
 {
+    [SerializeField] private hatThrow hatThrow;
     [SerializeField] PlayerControl player;
     public int PlayerNumber;
     public bool HasControllerAssigned = false;
@@ -11,6 +12,8 @@ public class PlayerPanel : MonoBehaviour
     void Start()
     {
         PlayerNumber = player.PlayerNumber;
+
+        // image start
     }
     public bool isReady()
     {
@@ -23,7 +26,19 @@ public class PlayerPanel : MonoBehaviour
     public PlayerControl AssignController(int controller)
     {
         player.Input.SetControllerInput(controller);
-        //Text turns green
+        //Change image here
+        switch (controller)
+        {
+            case 1:
+                {
+                    break;
+                }
+
+            case 2:
+                {
+                    break;
+                }
+        }
         HasControllerAssigned = true;
         return player;
     }
@@ -31,6 +46,12 @@ public class PlayerPanel : MonoBehaviour
     public void GameStart()
     {
         player.GameStart();
+    }
+
+    public void ClearImage()
+    {
+        //clear image stuff
+        //deactivate
     }
 
     // Update is called once per frame
