@@ -17,9 +17,17 @@ namespace UnityStandardAssets._2D
         private bool m_Jump;
         private bool m_Throw;
 
+        public AudioSource source;
+        public AudioClip jumpSFX;
+
         private float attackTimer;
 
         public Transform FirePoint;
+
+        private void Start()
+        {
+            source.clip = jumpSFX;
+        }
 
         private void Awake()
         {

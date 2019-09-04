@@ -226,6 +226,9 @@ MonoBehaviour:
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 55
+  m_FirePoint: {fileID: 0}
+  source: {fileID: 3470348481188028487, guid: d151396ee3bef4c4e9060047317ff26d, type: 3}
+  jumpSFX: {fileID: 8300000, guid: dbbf3b9f468c9e34882a8fd4c2993812, type: 3}
 --- !u!61 &9076184525221832662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -345,6 +348,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1389f7bb413e5184c94d82a50b3d9594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animate: {fileID: 0}
+  source: {fileID: 3470348481188028487, guid: d151396ee3bef4c4e9060047317ff26d, type: 3}
+  jumpSFX: {fileID: 8300000, guid: dbbf3b9f468c9e34882a8fd4c2993812, type: 3}
+  FirePoint: {fileID: 0}
 --- !u!1 &9076184525224162646
 GameObject:
   m_ObjectHideFlags: 0

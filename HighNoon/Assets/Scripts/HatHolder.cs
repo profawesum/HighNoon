@@ -19,7 +19,7 @@ public class HatHolder : MonoBehaviour
     Vector2 anchorLinks, connectedAnchorLinks;
 
     [SerializeField]
-    List<GameObject> HatList;
+    public List<GameObject> HatList;
 
     float speed  = 0.1f;
     float time;
