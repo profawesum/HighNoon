@@ -33,17 +33,19 @@ public class LevelTimer : MonoBehaviour
             //Time.timeScale = 0;
             if (holderOfTheHats.HatList.Count >= holderOfTheHats2.HatList.Count)
             {
-                timerText.text = "Red Player Wins";
+                timerText.color = Color.red;
+                timerText.text = "Red Player Wins, \n Press C to Continue";
                 target = player1;
             }
             else {
-                timerText.text = "Blue Player Wins";
+                timerText.color = Color.blue;
+                timerText.text = "Blue Player Wins, \n Press C to Continue";
                 target = player2;
              }
             cam.transform.position = (target.transform.position - new Vector3(0.0f, 0.0f, 2.0f));
             cam.orthographicSize = 5;
 
-            if (timer <= -7) {
+            if (Input.GetKeyDown(KeyCode.C)) {
                 Application.LoadLevel(Application.loadedLevel);
             }
         }
