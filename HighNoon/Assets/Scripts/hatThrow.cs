@@ -7,6 +7,8 @@ public class hatThrow : MonoBehaviour
 
 
     [SerializeField] Hats hat;
+    [SerializeField] HatHolder holderOfTheHats;
+    [SerializeField] HatHolder holderOfTheHats2;
     //[SerializeField] HatHolder holderOfTheHats;
 
     public GameObject hatToThrow;
@@ -58,6 +60,7 @@ public class hatThrow : MonoBehaviour
             if (P2Hats >= 1)
             {
                 hat.timer = 0;
+                holderOfTheHats2.removeHatWhenThrown();
                 throwHat(firePointP2);
                 P2Hats -= 1;
             }
@@ -68,6 +71,7 @@ public class hatThrow : MonoBehaviour
             if (P1Hats >= 1)
             {
                 hat.timer = 0;
+                holderOfTheHats.removeHatWhenThrown();
                 throwHat(firePointP1);
                 P1Hats -= 1;
             }
@@ -79,6 +83,14 @@ public class hatThrow : MonoBehaviour
         hat.rb2D.gravityScale = 1;
         hat.sj2D.enabled = false;
         hat.playerEquipped = false;
+
+        if (firePoint == firePointP1)
+        {
+            hatToThrow.tag = "p1Hat";
+        }
+        else {
+            hatToThrow.tag = "p2Hat";
+        }
         Instantiate(hatToThrow, firePoint.position, firePoint.rotation);
     }
 

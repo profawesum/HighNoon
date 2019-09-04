@@ -30,11 +30,11 @@ public class Hats : MonoBehaviour
                 timer += Time.deltaTime;
                 if (timer <= maxTime)
                 {
-                    gameObject.tag = "thrownHat";
                     rb2D.AddForce(transform.right * hatSpeed);
                 }
                 else {
                     gameObject.tag = "Hats";
+                    rb2D.gravityScale = 9.8f;
                     rb2D.velocity = new Vector2(0,0);
                 }
             }
@@ -45,8 +45,12 @@ public class Hats : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-                playerEquipped = true;
-                gameObject.GetComponent<Rigidbody2D>().gravityScale = -20;
-                gameObject.GetComponent<SpringJoint2D>().enabled = true;
+
+        if (collision.tag == "Player1" || collision.tag == "Player2")
+        {
+            playerEquipped = true;
+            gameObject.GetComponent<Rigidbody2D>().gravityScale = -20;
+            gameObject.GetComponent<SpringJoint2D>().enabled = true;
+        }
     }
 }

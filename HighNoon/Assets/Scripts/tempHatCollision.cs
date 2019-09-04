@@ -6,6 +6,8 @@ public class tempHatCollision : MonoBehaviour
 {
 
     [SerializeField] hatThrow throwHat;
+    [SerializeField] HatHolder holder;
+    [SerializeField] HatHolder holder2;
 
     private void OnTriggerEnter2D(Collider2D collision){
 
@@ -27,5 +29,13 @@ public class tempHatCollision : MonoBehaviour
             if (collision.tag == "floor") {
                 Destroy(gameObject);
             }
+        if (collision.tag == "equippedHats" && this.tag == "p1Hat")
+        {
+            holder2.removeHatWhenHit();
+        }
+        if (collision.tag == "equippedHats" && this.tag == "p2Hat")
+        {
+            holder.removeHatWhenHit();
+        }
     }
 }
