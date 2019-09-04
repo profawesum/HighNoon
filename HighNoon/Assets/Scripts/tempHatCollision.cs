@@ -8,12 +8,19 @@ public class tempHatCollision : MonoBehaviour
     [SerializeField] hatThrow throwHat;
     [SerializeField] HatHolder holder;
     [SerializeField] HatHolder holder2;
+    [SerializeField] HatHolder holder3;
+    [SerializeField] HatHolder holder4;
 
     SpriteRenderer m_SpriteRenderer;
 
     private void Start()
     {
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
+        
+    }
+    private void Awake()
+    {
+        throwHat = FindObjectOfType<hatThrow>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision){
@@ -30,11 +37,13 @@ public class tempHatCollision : MonoBehaviour
             m_SpriteRenderer.color = Color.blue;
         }
             if (collision.tag == "Player3"){
-                throwHat.addHats(3);
+            Debug.Log("Hats P3");
+            throwHat.addHats(3);
             m_SpriteRenderer.color = Color.yellow;
         }
             if (collision.tag == "Player4"){
-                throwHat.addHats(4);
+            Debug.Log("Hats P4");
+            throwHat.addHats(4);
             m_SpriteRenderer.color = Color.green;
         }
             if (collision.tag == "floor") {
@@ -42,11 +51,19 @@ public class tempHatCollision : MonoBehaviour
             }
         if (collision.tag == "equippedHats" && this.tag == "p1Hat")
         {
-            holder2.removeHatWhenHit();
+            holder.removeHatWhenHit();
         }
         if (collision.tag == "equippedHats" && this.tag == "p2Hat")
         {
-            holder.removeHatWhenHit();
+            holder2.removeHatWhenHit();
+        }
+        if (collision.tag == "equippedHats" && this.tag == "p3Hat")
+        {
+            holder3.removeHatWhenHit();
+        }
+        if (collision.tag == "equippedHats" && this.tag == "p4Hat")
+        {
+            holder4.removeHatWhenHit();
         }
     }
 }

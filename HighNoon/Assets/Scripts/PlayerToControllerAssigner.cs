@@ -66,7 +66,7 @@ public class PlayerToControllerAssigner : MonoBehaviour
                 }
                 else if (playerPanel.HasControllerAssigned == false)
                 {
-                    playerPanel.
+                    playerPanel.ClearImage();
                 }
             }
             isCount = false;
