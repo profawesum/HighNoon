@@ -20,6 +20,10 @@ public class HatHolder : MonoBehaviour
 
     [SerializeField]
     List<GameObject> HatList;
+
+    float speed  = 0.1f;
+    float time;
+
     // Start is called before the first frame update
     void Start() 
     {
@@ -50,6 +54,9 @@ public class HatHolder : MonoBehaviour
                 collision.GetComponent<Rigidbody2D>().drag = dragLinks;
                 collision.GetComponent<Rigidbody2D>().angularDrag = angularDragLinks;
                 HatList.Add(collision.gameObject);
+                collision.gameObject.tag = "equippedHats";
+
+
             }
             else if (collision.CompareTag("Hats"))
             {
@@ -64,7 +71,42 @@ public class HatHolder : MonoBehaviour
                 collision.GetComponent<Rigidbody2D>().drag = dragFirst;
                 collision.GetComponent<Rigidbody2D>().angularDrag = angularDragFirst;
                 HatList.Add(collision.gameObject);
+                collision.gameObject.tag = "equippedHats";
             }
         }
+    }
+
+
+
+    private void FixedUpdate()
+    {
+        if (time <= 1)
+        {
+            time += Time.deltaTime;
+        }
+    }
+
+    public void removeHatWhenHit() {
+
+
+        Debug.Log("got here");
+            float directionX = Random.Range(-20f, 20f);
+            float directionY = Random.Range(-12.5f, 8f);
+
+            GameObject temp = HatList.Last();
+            temp.GetComponent<SpringJoint2D>().connectedBody = null;
+            temp.GetComponent<SpringJoint2D>().connectedAnchor = new Vector2(directionX, directionY);
+            temp.GetComponent<Rigidbody2D>().AddForce(new Vector2(directionX, directionY).normalized * speed);
+            temp.tag = "Hats";
+            HatList.Remove(temp);
+        
+    }
+
+    public void removeHatWhenThrown() {
+
+        GameObject temp = HatList.Last();
+        temp.GetComponent<SpringJoint2D>().connectedBody = null;
+        HatList.Remove(temp);
+        Destroy(temp);
     }
 }
