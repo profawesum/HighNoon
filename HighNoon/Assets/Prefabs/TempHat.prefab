@@ -187,4 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throwHat: {fileID: 449341255377706780, guid: 4205341f3d028f944aef86a684a79c40, type: 3}
-  velo: {fileID: 6375344672474583092}
+  holder: {fileID: 0}
+  holder2: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: e1c14cd3eb06b9340ba5ce9ab9754607, type: 3}
+  source: {fileID: 319711820451651377, guid: 62a069600fbac2041abc04bd05f8aeca, type: 3}

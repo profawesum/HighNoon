@@ -24,6 +24,14 @@ public class HatHolder : MonoBehaviour
     float speed  = 0.1f;
     float time;
 
+    public AudioSource source;
+    public AudioClip collisionsfx;
+
+    private void Start()
+    {
+        source.clip = collisionsfx;
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -64,9 +72,11 @@ public class HatHolder : MonoBehaviour
             }
 
             if (collision.tag == "Player1") {
+                source.Play();
                 removeHatWhenHit();
             }
             if (collision.tag == "Player2") {
+                source.Play();
                 removeHatWhenHit();
             }
         }

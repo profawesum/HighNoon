@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3936487739547338265}
   - component: {fileID: 3936487739547338264}
   - component: {fileID: 3936487739547338271}
+  - component: {fileID: 6726646372229478551}
   m_Layer: 0
   m_Name: New Sprite (3)
   m_TagString: Hats
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 12ef7cbdfe0e143fa858a324456c8979, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25be2e5d31daabd459e69398cd107214, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,11 +119,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb2D: {fileID: 0}
   sj2D: {fileID: 0}
-  hatSpeed: 0.01
+  hatSpeed: 0.05
   timer: 0
   playerEquipped: 0
   timeReset: 0
-  maxTime: 0.05
+  maxTime: 0.5
 --- !u!231 &3936487739547338264
 SpringJoint2D:
   m_ObjectHideFlags: 0
@@ -159,8 +160,8 @@ BoxCollider2D:
   m_Offset: {x: 0.625, y: 0.625}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 1.25, y: 1.25}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.155, y: 0.78}
     newSize: {x: 1.25, y: 1.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -169,3 +170,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.25, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &6726646372229478551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3936487739547338270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78cd7566566862e4da08c3ccf858b26b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwHat: {fileID: 0}
+  holder: {fileID: 0}
+  holder2: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: e1c14cd3eb06b9340ba5ce9ab9754607, type: 3}
+  source: {fileID: 0}

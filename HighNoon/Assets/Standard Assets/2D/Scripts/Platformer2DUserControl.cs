@@ -8,6 +8,9 @@ namespace UnityStandardAssets._2D
     public class Platformer2DUserControl : MonoBehaviour
     {
 
+        public AudioClip jumpsound;
+        public AudioSource source;
+
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
     
@@ -24,6 +27,11 @@ namespace UnityStandardAssets._2D
             {
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                source.Play();
             }
         }
 

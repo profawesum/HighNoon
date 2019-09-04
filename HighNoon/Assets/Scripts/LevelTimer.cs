@@ -21,6 +21,17 @@ public class LevelTimer : MonoBehaviour
     [SerializeField] HatHolder holderOfTheHats;
     [SerializeField] HatHolder holderOfTheHats2;
 
+    public AudioClip gameOverSound;
+    public AudioSource source;
+
+    bool gameOver = true;
+
+
+    private void Start()
+    {
+        source.clip = gameOverSound;
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -28,7 +39,12 @@ public class LevelTimer : MonoBehaviour
         timer -= 1 * Time.deltaTime;
         timerText.text = "Time Remaining: " + timer.ToString("F2");
 
-        if (timer <= 0) { 
+        if (timer <= 0) {
+            if (gameOver == true)
+            {
+                source.PlayOneShot(gameOverSound, 1.5f);
+                gameOver = false;
+            }
             //timer = 0;
             //Time.timeScale = 0;
             if (holderOfTheHats.HatList.Count >= holderOfTheHats2.HatList.Count)
