@@ -5,11 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fire
-  - Hats
   - Player1
   - Player2
   - Player3
   - Player4
+  - Hats
+  - floor
+  - thrownHat
+  - equippedHats
+  - p1Hat
+  - p2Hat
   layers:
   - Default
   - TransparentFX
