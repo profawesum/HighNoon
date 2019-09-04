@@ -9,16 +9,16 @@ public class LevelTimer : MonoBehaviour
     public float timer = 120;
     public Text timerText;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         timer -= 1 * Time.deltaTime;
         timerText.text = "Time Remaining: " + timer.ToString("F2");
+
+        if (timer <= 0) { 
+            timer = 0;
+            //load the win screen
+            Application.LoadLevel(2);
+        }
     }
 }
