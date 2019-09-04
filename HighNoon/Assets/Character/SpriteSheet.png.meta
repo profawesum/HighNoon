@@ -40,7 +40,7 @@ TextureImporter:
     second: SpriteSheet_11
   - first:
       213: 8058879627694289943
-    second: Character1_SpriteSheet
+    second: SpriteSheet_13
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -386,7 +386,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character1_SpriteSheet
+      name: SpriteSheet_13
       rect:
         serializedVersion: 2
         x: 0
