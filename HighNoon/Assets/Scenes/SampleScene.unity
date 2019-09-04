@@ -336,7 +336,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 2.98}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &35151626
@@ -3549,7 +3549,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 2.98}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &874647284
@@ -4095,7 +4095,7 @@ SpriteRenderer:
   m_Size: {x: 0.65, y: 7.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &985097406
@@ -4974,18 +4974,10 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &1235261803
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1255261038023617416, guid: 4fb7a441e15e86540aea02a488102cfe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1255261036792623843}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235261802}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.13, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 421399406}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1243466215
 GameObject:
   m_ObjectHideFlags: 0
@@ -6930,7 +6922,7 @@ SpriteRenderer:
   m_Size: {x: 0.65, y: 7.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1770032879 stripped
@@ -7239,7 +7231,7 @@ SpriteRenderer:
   m_Size: {x: 0.65, y: 7.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2029286262
@@ -7569,7 +7561,7 @@ SpriteRenderer:
   m_Size: {x: 6, y: 2.98}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2082867445
@@ -7964,4 +7956,4 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4205341f3d028f944aef86a684a79c40, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 4fb7a441e15e86540aea02a488102cfe, type: 3}

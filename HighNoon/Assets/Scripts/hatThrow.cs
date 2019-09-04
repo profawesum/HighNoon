@@ -14,6 +14,9 @@ public class hatThrow : MonoBehaviour
     public Animator animateP1;
 
     public GameObject hatToThrow;
+    private PlayerControl player;
+    //private PlayerInput Input;
+    private int PlayerNumber;
 
     public Transform firePointP1;
     public Transform firePointP2;
@@ -120,6 +123,16 @@ public class hatThrow : MonoBehaviour
             hatToThrow.tag = "p2Hat";
         }
         Instantiate(hatToThrow, firePoint.position, firePoint.rotation);
+    }
+
+    public void SetPlayer(PlayerControl player)
+    {
+        this.player = player;
+        PlayerNumber = player.PlayerNumber;
+        //Input = player.GetComponent<PlayerInput>();
+
+        // If a text or indicator was wanted Place it in children
+        //if(GetComponentInChildren<player>)
     }
 
 }
