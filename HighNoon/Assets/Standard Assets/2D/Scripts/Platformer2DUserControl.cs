@@ -1,6 +1,9 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+
 
 namespace UnityStandardAssets._2D
 {
@@ -8,9 +11,11 @@ namespace UnityStandardAssets._2D
     public class Platformer2DUserControl : MonoBehaviour
     {
 
+       // private PlayerControl player;
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
-    
+
+        
 
         private void Awake()
         {

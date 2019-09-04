@@ -5,6 +5,9 @@ using UnityEngine;
 public class hatThrow : MonoBehaviour
 {
     public GameObject hatToThrow;
+    private PlayerControl player;
+    //private PlayerInput Input;
+    private int PlayerNumber;
 
     public Transform firePointP1;
     public Transform firePointP2;
@@ -41,6 +44,16 @@ public class hatThrow : MonoBehaviour
     //fires a hat
     public void throwHat(Transform firePoint) {
         Instantiate(hatToThrow, firePoint.position, firePoint.rotation);
+    }
+
+    public void SetPlayer(PlayerControl player)
+    {
+        this.player = player;
+        PlayerNumber = player.PlayerNumber;
+        //Input = player.GetComponent<PlayerInput>();
+
+        // If a text or indicator was wanted Place it in children
+        //if(GetComponentInChildren<player>)
     }
 
 }
