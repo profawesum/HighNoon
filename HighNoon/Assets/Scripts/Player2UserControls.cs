@@ -26,7 +26,7 @@ namespace UnityStandardAssets._2D
             {
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = Input.ButtonIsDown(PlayerInput.Button.A);
-                Debug.Log("JUMP AM: " + Input.controllerNumber);
+                //Debug.Log("JUMP AM: " + Input.controllerNumber);
             }
         }
 
