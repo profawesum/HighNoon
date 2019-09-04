@@ -11,6 +11,7 @@ public class hatThrow : MonoBehaviour
     [SerializeField] HatHolder holderOfTheHats2;
 
     public Animator animate;
+    public Animator animateP1;
 
     public GameObject hatToThrow;
 
@@ -62,8 +63,8 @@ public class hatThrow : MonoBehaviour
         if (Input.GetButtonDown("ArrowThrowHat")) {
             if (P2Hats >= 1)
             {
-                hat.timer = 0;
                 animate.SetBool("isAttacking", true);
+                hat.timer = 0;
                 holderOfTheHats2.removeHatWhenThrown();
                 throwHat(firePointP2);
                 P2Hats -= 1;
@@ -72,7 +73,7 @@ public class hatThrow : MonoBehaviour
         }
         attackTimer+= Time.deltaTime;
 
-        if (attackTimer >= 0.5f) {
+        if (attackTimer >= 0.25f) {
             attackTimer = 0;
             animate.SetBool("isAttacking", false);
         }
@@ -82,6 +83,14 @@ public class hatThrow : MonoBehaviour
         }
         else {
             animate.SetBool("run", false);
+        }
+        if (Input.GetAxis("Horizontal") != 0)
+        {
+            animateP1.SetBool("run", true);
+        }
+        else
+        {
+            animateP1.SetBool("run", false);
         }
 
         //p1
