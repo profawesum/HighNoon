@@ -19,22 +19,11 @@ public class HatHolder : MonoBehaviour
     Vector2 anchorLinks, connectedAnchorLinks;
 
     [SerializeField]
-    List<GameObject> HatList;
+    public List<GameObject> HatList;
 
     float speed  = 0.1f;
     float time;
 
-    // Start is called before the first frame update
-    void Start() 
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -73,10 +62,15 @@ public class HatHolder : MonoBehaviour
                 HatList.Add(collision.gameObject);
                 collision.gameObject.tag = "equippedHats";
             }
+
+            if (collision.tag == "Player1") {
+                removeHatWhenHit();
+            }
+            if (collision.tag == "Player2") {
+                removeHatWhenHit();
+            }
         }
     }
-
-
 
     private void FixedUpdate()
     {
