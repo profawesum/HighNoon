@@ -28,9 +28,9 @@ public class PlayerInput : MonoBehaviour
         switch (button)
         {
             case Button.A:
-                return Input.GetButton(aButton);
+                return Input.GetButtonDown(aButton);
             case Button.B:
-                return Input.GetButton(bButton);
+                return Input.GetButtonDown(bButton);
         }
         return false;
     }
