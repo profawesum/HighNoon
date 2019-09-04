@@ -2006,7 +2006,7 @@ PrefabInstance:
     - target: {fileID: 21200000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e74cd05cdbaa84b42858faf603b6214a,
+      objectReference: {fileID: -4516305291317424418, guid: b83f4fe6a7d2734499f0f7be575b4d5c,
         type: 3}
     - target: {fileID: 21200000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
       propertyPath: m_Enabled
@@ -2016,6 +2016,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 87a2357765801c34292d6718d8b4d770, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3dfc36abf4eeef244a8f65ddaf2e5458, type: 2}
     - target: {fileID: 519331611491874468, guid: 87a2357765801c34292d6718d8b4d770,
         type: 3}
       propertyPath: anchorFirst.x
@@ -7042,7 +7046,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1075, y: 1.4766667}
+    oldSize: {x: 1.1075, y: 1.4766666}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
