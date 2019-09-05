@@ -134,7 +134,7 @@ public class hatThrow : MonoBehaviour
                 {
                     if (P2Hats >= 1)
                     {
-                        //hat.timer = 0;
+                        hat.timer = 0;
                         holderOfTheHats2.removeHatWhenThrown();
                         throwHat(firePointP2);
                         P2Hats -= 1;

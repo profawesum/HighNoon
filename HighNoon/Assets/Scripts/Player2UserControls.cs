@@ -26,7 +26,7 @@ namespace UnityStandardAssets._2D
 
         private void Start()
         {
-            source.clip = jumpSFX;
+            
         }
 
         private void Awake()
@@ -35,6 +35,8 @@ namespace UnityStandardAssets._2D
             animate = gameObject.GetComponent<Animator>();
             FirePoint = m_Character.m_FirePoint;
             hatThrow = FindObjectOfType<hatThrow>();
+            source.clip = jumpSFX;
+            source.enabled = true;
         }
 
         private void Update()
@@ -43,12 +45,17 @@ namespace UnityStandardAssets._2D
             {
                 // Read the jump input in Update so button presses aren't missed.
                 m_Jump = Input.ButtonIsDown(PlayerInput.Button.A);
+                if(m_Jump)
+                {
+                    source.Play();
+                }
                 //Debug.Log("JUMP AM: " + Input.controllerNumber);
             }
             attackTimer += Time.deltaTime;
             m_Throw = Input.ButtonIsDown(PlayerInput.Button.B);
             if (m_Throw)
             {      
+
                 if(hatThrow.UpdateHatThrow(PlayerNumber))
                 {
                     animate.SetBool("isAttacking", true);

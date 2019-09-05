@@ -28,14 +28,14 @@ namespace UnityStandardAssets._2D
 
 
         private void Awake()
-        {
-            source.clip = jumpSFX;
+        {            
             // Setting up references.
             m_GroundCheck = transform.Find("GroundCheck");
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_FirePoint = transform.Find("FirePoint");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
+            source.clip = jumpSFX;
         }
 
 
@@ -91,7 +91,6 @@ namespace UnityStandardAssets._2D
                 m_Anim.SetBool("Ground", false);
                 m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
                 source.Play();
-
             }
         }
 
